@@ -1,0 +1,98 @@
+body{
+    background-color: #c4c4c4;
+}
+#container {
+    width: 80%;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(29,29,29,0.25);
+    padding: 50px;
+  }
+  #left-container {
+    width: 60%;
+  }
+  
+#left-container h1 {
+    font-weight: 800;
+    margin-top: 0;
+  }
+  #left-container p {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  #profile-card {
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 25px 32px rgba(29,29,29,0.25);
+  }
+  #profile-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  #profile-card div {
+    padding: 20px 0;
+  }
+  #profile-card div h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  #profile-card div p {
+    margin: 0;
+    text-align: center;
+  }  
+  #action-button-contact {
+    text-decoration: none;
+  }
+  #action-button-contact a {
+    text-decoration: none;
+  }
+  #contact-button {
+      margin-right: 20px;
+    }
+  #contact-button button {
+    border: none;
+    background: #0c0f13;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  #download-cv {
+    border: none;
+    background: none;
+    font-weight: arial;
+    color: #0a0d10;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #download-cv i {
+    margin-left: 5px;
+    color: #111316;
+    cursor: pointer;
+  }
+  #donwload-cv i a:hover{
+    background-color: rgb(250, 17, 17);
+    transition-duration: 500ms;
+
+  }
+  #action-button-contact a:hover button{
+   background-color: rgb(250, 17, 17);
+   transition-duration: 500ms;
+  
+  }
+#icon-media a:hover button i{
+  background-color: rgb(8, 6, 6);
+  transition-duration: 500ms;
+  color: #eeecf7;
+ }
+    
